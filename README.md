@@ -1,7 +1,7 @@
 # Vero
- Vero is a promises library for fetching information from api sources
- FranckEinstein90
----------------------------------------------------------------------------
+
+This repo is used to dev and test what will eventually become a package for is a promise libray for fetching information from rest apis
+ 
 It implements: 
 
 - alwaysResolve: a type of promise that always resolves
@@ -33,7 +33,4 @@ It implements:
     
 vero relies on: 
 - the request library
-* ***************************************************************************/
 
-
-This is a promise libray - I'm using this repo for dev and testing - when it's ready, my intention is to make it a package
