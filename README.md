@@ -1,7 +1,7 @@
 # Vero
+
  Vero is a promises library for fetching information from api sources
- FranckEinstein90
----------------------------------------------------------------------------
+ 
 It implements: 
 
 - alwaysResolve: a type of promise that always resolves
