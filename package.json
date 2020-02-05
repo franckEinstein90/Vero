@@ -1,0 +1,24 @@
+{
+  "name": "vero",
+  "version": "1.0.0",
+  "description": "promise library",
+  "main": "vero.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franckEinstein90/Vero.git"
+  },
+  "keywords": [
+    "promises",
+    "nodeJS",
+    "javascript"
+  ],
+  "author": "FranckEinstein90",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/franckEinstein90/Vero/issues"
+  },
+  "homepage": "https://github.com/franckEinstein90/Vero#readme"
+}
