@@ -9,24 +9,20 @@
 const config = require('config')
 /*****************************************************************************/
 
-const getAppData = function(dataKey){
-    try {
-        return config.get(dataKey)
-    } catch {
-        return null
-    }
-}
+const getAppData = dataKey => config.has( dataKey ) ? config.get(dataKey) : null
 
 const veroData = (function(){
 
-    let _rapidAPIKey    = getAppData('rapidAPIKey')
-    let _rapidAPIHost   = getAppData('rapidAPIHost')
-    let _appSecret      = getAppData('appSecret')
+    let _rapidAPIKey            = getAppData('rapidAPIKey')
+    let _rapidAPICountryv1Host  = getAppData('rapidAPICountryv1Host')
+    let _appSecret              = getAppData('appSecret')
 
     return {
-        rapidAPIKey     : _rapidAPIKey, 
-        rapidAPIHost    : _rapidAPIHost, 
-        appSecret       : _appSecret 
+
+        rapidAPIKey             : _rapidAPIKey, 
+        rapidAPICountryv1Host   : _rapidAPICountryv1Host, 
+        appSecret               : _appSecret 
+
     }
 })()
 
