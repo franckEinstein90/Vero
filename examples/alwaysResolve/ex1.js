@@ -4,8 +4,8 @@
  * ***************************************************************************/
 "use strict"
 
-const veroData      = require('./veroData').veroData
-const alwaysResolve = require('./alwaysResolve').alwaysResolve
+const veroData      = require('./src/veroData').veroData
+const alwaysResolve = require('./src/alwaysResolve').alwaysResolve
 /******************************************************************************/
 
 //In this example, the countryCodes array contains

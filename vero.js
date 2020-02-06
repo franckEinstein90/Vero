@@ -39,8 +39,9 @@
  * test (see test folder) or an example (see example folder) - the rest of this 
  * file could be whatever, just disregard
  * *****************************************************************************/
-const veroData = require('./src/veroData').veroData
+const veroData      = require('./src/veroData').veroData
 const alwaysResolve = require('./src/alwaysResolve').alwaysResolve
+const objectPromise = require('./src/objectPromise').objectPromise
 /******************************************************************************/
 
 //In this example, the countryCodes array contains
