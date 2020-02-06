@@ -1,4 +1,4 @@
-/*******************************************************************************
+ /*******************************************************************************
  * FranckEinstein90 alwaysResolve 2010
  *
  * ------------------------------------------------
@@ -34,7 +34,7 @@ const alwaysResolve = function (apiCall, options = {
 
                if(_callOptions.url === null) return resolve( bad ('bad url'))
 
-               request(callOptions, (err, response, body) => {
+               request(_callOptions, (err, response, body) => {
                     if (err) {
                             return resolve( bad( err, response, body ) )
 

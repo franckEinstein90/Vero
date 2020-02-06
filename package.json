@@ -20,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/franckEinstein90/Vero/issues"
   },
-  "homepage": "https://github.com/franckEinstein90/Vero#readme"
+  "homepage": "https://github.com/franckEinstein90/Vero#readme",
+  "dependencies": {
+    "config": "^3.2.5",
+    "request": "^2.88.0",
+    "validator": "^12.2.0"
+  }
 }
